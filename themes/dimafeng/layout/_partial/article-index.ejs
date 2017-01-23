@@ -1,0 +1,30 @@
+<div class="blog-post">
+
+
+    <p class="blog-post-category"><%- item.cat %></p>
+    <span class="blog-post-category-outline"></span>
+    <a href="<%- config.root %><%- item.path %>">
+      <h2 class="blog-post-title"><%- item.title || theme.default_post_title || "Untitled" %></h2>
+    </a>
+    <p class="blog-post-meta">Опубликовано <%= item.date.format(config.date_format) %></p>
+    <p><%- item.short %></p>
+    <p class="continue-reading"><a href="<%- config.root %><%- item.path %>">Читать далее →</a></p>
+
+
+    <!-- <a href="<%- config.root %><%- item.path %>">
+        <h2 class="post-title">
+            <%- item.title || theme.default_post_title || "Untitled" %>
+        </h2>
+        <% if (item.subtitle && item.subtitle.length) { %>
+            <h3 class="post-subtitle">
+                <%- item.subtitle %>
+            </h3>
+        <% } %>
+    </a>
+    <p class="post-meta">
+        <% if(item.author) { %>
+            Posted by <%- item.author %> on
+        <% } %>
+        <%= item.date.format(config.date_format) %>
+    </p> -->
+</div>
