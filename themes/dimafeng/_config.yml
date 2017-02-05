@@ -13,7 +13,7 @@ menu_title: Configurable Title
 index_cover: http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg
 
 # Default post title
-default_post_title: Untitled
+default_post_title: Без имени
 
 # Comments. Choose one by filling up the information
 comments:
@@ -26,10 +26,10 @@ comments:
     comment_colorscheme: light
 
 # Google Analytics Tracking ID
-google_analytics:
+google_analytics: UA-91447155-1
 
 # Addthis ID
-addthis:
+addthis: ra-589768f5af968622
 
 # set your own favicon
 favicon:
@@ -38,7 +38,7 @@ favicon:
 twitter_url:
 twitter_handle:
 facebook_url:
-github_url: https://github.com/klugjo/hexo-theme-clean-blog
+github_url:
 gitlab_url:
 linkedin_url:
 mailto:

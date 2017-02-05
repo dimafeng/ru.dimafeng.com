@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lora', serif;
   font-size: 16px;
   color: #555;
 }
@@ -56,9 +56,14 @@ nav a:hover {
 
 a:hover {
   text-decoration: none;
-  color: #2a3a48;
+  color: #66440e;
   transition-property: color;
   transition-duration: 1s;
+}
+
+a {
+    color: #a56e34;
+    text-decoration: none;
 }
 
 .tri-line {
@@ -83,6 +88,7 @@ a:hover {
   text-align: center;
   color: #aaa;
   font-size: 0.8em;
+  font-family: 'Roboto', sans-serif;
 }
 
 .blog-post-category {
@@ -91,6 +97,7 @@ a:hover {
   font-size: 0.8em;
   text-transform: uppercase;
   margin: 0 0 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .blog-post-category-outline {
@@ -109,6 +116,10 @@ a:hover {
 }
 
 /* ------- */
+footer {
+  font-family: 'Roboto', sans-serif;
+}
+
 footer .info {
   background: #222;
   background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('/img/main-bg.jpg');
@@ -166,7 +177,12 @@ footer .copy {
   padding: 50px 0 30px 0;
   background: #fff;
   z-index: 1;
-  line-height: 1.5;
+  line-height: 1.6;
+  font-size: 1.15em;
+}
+
+.article-full-content a {
+    text-decoration: underline;
 }
 
 .article-full-content p {
@@ -184,4 +200,8 @@ footer .copy {
 
 .comments-area {
   margin-bottom: 30px;
+}
+
+.youtube {
+  text-align: center;
 }
